@@ -10,4 +10,10 @@
 
 @interface SenceManager : NSObject
 
+@property(nonatomic, readonly) SceneID currentSceneId;
+@property(nonatomic, readonly) SceneID previousSceneId;
+@property(nonatomic, retain) CCArray *arrSence;
+
+-(void)nextScene;
+-(void)prevScene;
 @end
