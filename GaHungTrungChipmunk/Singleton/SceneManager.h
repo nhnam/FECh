@@ -8,12 +8,16 @@
 
 #import <Foundation/Foundation.h>
 
-@interface SenceManager : NSObject
+@interface SceneManager : NSObject
 
 @property(nonatomic, readonly) SceneID currentSceneId;
 @property(nonatomic, readonly) SceneID previousSceneId;
-@property(nonatomic, retain) CCArray *arrSence;
+@property(nonatomic, retain) CCArray *arrScenes;
+@property(nonatomic, retain) CCArray *historyScenes;
 
--(void)nextScene;
--(void)prevScene;
++(SceneManager*)getInstance;
+
+-(void)replaceScene:(SceneID)scene;
+-(void)popScene:(SceneID)scene;
+-(void)pushScene:(SceneID)scene;
 @end

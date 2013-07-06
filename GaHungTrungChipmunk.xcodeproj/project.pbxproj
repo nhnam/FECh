@@ -178,7 +178,7 @@
 		D8B62BD91786785500362806 /* IntroScene.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B62BC61786785500362806 /* IntroScene.m */; };
 		D8B62BDA1786785500362806 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B62BCA1786785500362806 /* DataManager.m */; };
 		D8B62BDB1786785500362806 /* GameManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B62BCC1786785500362806 /* GameManager.m */; };
-		D8B62BDC1786785500362806 /* SenceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B62BCE1786785500362806 /* SenceManager.m */; };
+		D8B62BDC1786785500362806 /* SceceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B62BCE1786785500362806 /* SceceManager.m */; };
 		D8B62BDD1786785500362806 /* SoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B62BD01786785500362806 /* SoundManager.m */; };
 		D8B62BDE1786785500362806 /* SpriteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B62BD21786785500362806 /* SpriteManager.m */; };
 /* End PBXBuildFile section */
@@ -540,8 +540,8 @@
 		D8B62BCA1786785500362806 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
 		D8B62BCB1786785500362806 /* GameManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameManager.h; sourceTree = "<group>"; };
 		D8B62BCC1786785500362806 /* GameManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameManager.m; sourceTree = "<group>"; };
-		D8B62BCD1786785500362806 /* SenceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SenceManager.h; sourceTree = "<group>"; };
-		D8B62BCE1786785500362806 /* SenceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SenceManager.m; sourceTree = "<group>"; };
+		D8B62BCD1786785500362806 /* SceneManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneManager.h; sourceTree = "<group>"; };
+		D8B62BCE1786785500362806 /* SceceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceceManager.m; sourceTree = "<group>"; };
 		D8B62BCF1786785500362806 /* SoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundManager.h; sourceTree = "<group>"; };
 		D8B62BD01786785500362806 /* SoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundManager.m; sourceTree = "<group>"; };
 		D8B62BD11786785500362806 /* SpriteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpriteManager.h; sourceTree = "<group>"; };
@@ -1158,8 +1158,8 @@
 				D8B62BCA1786785500362806 /* DataManager.m */,
 				D8B62BCB1786785500362806 /* GameManager.h */,
 				D8B62BCC1786785500362806 /* GameManager.m */,
-				D8B62BCD1786785500362806 /* SenceManager.h */,
-				D8B62BCE1786785500362806 /* SenceManager.m */,
+				D8B62BCD1786785500362806 /* SceneManager.h */,
+				D8B62BCE1786785500362806 /* SceceManager.m */,
 				D8B62BCF1786785500362806 /* SoundManager.h */,
 				D8B62BD01786785500362806 /* SoundManager.m */,
 				D8B62BD11786785500362806 /* SpriteManager.h */,
@@ -1391,7 +1391,7 @@
 				D8B62BD91786785500362806 /* IntroScene.m in Sources */,
 				D8B62BDA1786785500362806 /* DataManager.m in Sources */,
 				D8B62BDB1786785500362806 /* GameManager.m in Sources */,
-				D8B62BDC1786785500362806 /* SenceManager.m in Sources */,
+				D8B62BDC1786785500362806 /* SceceManager.m in Sources */,
 				D8B62BDD1786785500362806 /* SoundManager.m in Sources */,
 				D8B62BDE1786785500362806 /* SpriteManager.m in Sources */,
 			);
