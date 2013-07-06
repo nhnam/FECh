@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "GGBaseScene.h"
 
 @interface SceneManager : NSObject
 
@@ -18,6 +19,7 @@
 +(SceneManager*)getInstance;
 
 -(void)replaceScene:(SceneID)scene;
--(void)popScene:(SceneID)scene;
+-(GGBaseScene*)popScene:(SceneID)scene;
 -(void)pushScene:(SceneID)scene;
+
 @end

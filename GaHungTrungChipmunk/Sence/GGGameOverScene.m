@@ -6,8 +6,8 @@
 //  Copyright (c) 2013 namnguyen. All rights reserved.
 //
 
-#import "GameOverScene.h"
+#import "GGGameOverScene.h"
 
-@implementation GameOverScene
+@implementation GGGameOverScene
 
 @end

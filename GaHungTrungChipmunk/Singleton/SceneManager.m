@@ -7,13 +7,24 @@
 //
 
 #import "SceneManager.h"
+#import "GGGameOverScene.h"
+#import "GGGamePlayScene.h"
+#import "GGIntroScene.h"
+#import "GGMenuScene.h"
 
 @interface SceneManager (Private)
 
 @end
 
-static SceneManager *instance = nil;
+
 @implementation SceneManager
+#pragma mark shared instanced
+static SceneManager *instance = nil;
+static GGMenuScene *menuInstace = nil;
+static GGIntroScene *introInstace = nil;
+static GGGameOverScene *gameoverInstace = nil;
+static GGGamePlayScene *gameplayInstance = nil;
+
 
 #pragma mark SYNTHERSIZE
 @synthesize arrScenes;
@@ -42,7 +53,33 @@ static SceneManager *instance = nil;
     return self;
 }
 #pragma mark PRIVATE METHODS
-
+-(GGBaseScene*)sceneWithID:(SceneID)sceneId{
+    switch (sceneId) {
+        case SceneMenu:
+        {
+            
+        }
+            break;
+        case SceneIntro:
+        {
+            
+        }
+            break;
+        case SceneGamePlay:
+        {
+            
+        }
+            break;
+        case SceneGameOver:
+        {
+            
+        }
+            break;
+            
+        default:
+            break;
+    }
+}
 #pragma mark PUCLIC METHODS
 +(SceneManager*)getInstance{
     @synchronized(self){
@@ -52,15 +89,58 @@ static SceneManager *instance = nil;
         return instance;
     }
 }
++(GGBaseScene*)getInstance:(SceneID)sceneId{
+    switch (sceneId) {
+        case SceneIntro:
+            @synchronized(self){
+                if(introInstace == nil){
+                    introInstace = [[GGIntroScene alloc] init];
+                }
+                return introInstace;
+            }
+            break;
+        case SceneGamePlay:
+            @synchronized(self){
+                if(gameplayInstance == nil){
+                    gameplayInstance = [[GGGamePlayScene alloc] init];
+                }
+                return gameplayInstance;
+            }
+            break;
+        case SceneMenu:
+            @synchronized(self){
+                if(menuInstace == nil){
+                    menuInstace = [[GGMenuScene alloc] init];
+                }
+                return menuInstace;
+            }
+            break;
+        case SceneGameOver:
+            @synchronized(self){
+                if(gameoverInstace == nil){
+                    gameoverInstace = [[GGGameOverScene alloc] init];
+                }
+                return gameoverInstace;
+            }
+            break;
+            break;
+            
+        default:
+            break;
+    }
+}
 
 -(void)replaceScene:(SceneID)scene{
 
 }
--(void)popScene:(SceneID)scene{
-    
+-(GGBaseScene*)popScene:(SceneID)scene{
+    GGBaseScene *lastScene = [arrScenes lastObject];
+    [arrScenes removeLastObject];
+    return lastScene;
 }
 -(void)pushScene:(SceneID)scene{
-    
+//    arrScenes addObject:Scee
 }
+
 
 @end

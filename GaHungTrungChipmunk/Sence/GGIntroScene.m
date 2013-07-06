@@ -6,8 +6,8 @@
 //  Copyright (c) 2013 namnguyen. All rights reserved.
 //
 
-#import "IntroScene.h"
+#import "GGIntroScene.h"
 
-@implementation IntroScene
+@implementation GGIntroScene
 
 @end

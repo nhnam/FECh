@@ -10,4 +10,19 @@
 
 @implementation GGBaseScene
 
+// Helper class method that creates a Scene with the HelloWorldLayer as the only child.
++(CCScene *) scene
+{
+	// 'scene' is an autorelease object.
+	CCScene *scene = [CCScene node];
+	
+	// 'layer' is an autorelease object.
+	GGBaseScene *layer = [GGBaseScene node];
+	
+	// add layer as a child to scene
+	[scene addChild: layer];
+	
+	// return the scene
+	return scene;
+}
 @end

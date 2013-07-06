@@ -7,7 +7,8 @@
 //
 
 #import "CCScene.h"
+#import "GGBaseScene.h"
 
-@interface GameOverScene : CCScene
+@interface GGGameOverScene : GGBaseScene
 
 @end
