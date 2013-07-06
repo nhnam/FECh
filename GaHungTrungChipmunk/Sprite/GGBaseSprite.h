@@ -6,13 +6,11 @@
 //  Copyright (c) 2013 namnguyen. All rights reserved.
 //
 
-#import "CCSprite.h"
-
-@interface BaseSprite : CCSprite{
+@interface GGBaseSprite : CCSprite{
     SpriteType mSpriteType;
     float mMass;
 }
-@property(nonatomic, readwrite) SpriteType mSpriteType;
+@property(nonatomic, readonly) SpriteType mSpriteType;
 @property(nonatomic, readwrite) float mMass;
 +(id)makeNewWithPosition:(CGPoint)point;
 @end

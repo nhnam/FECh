@@ -6,8 +6,8 @@
 //  Copyright (c) 2013 namnguyen. All rights reserved.
 //
 
-#import "Nest.h"
+#import "GGNest.h"
 
-@implementation Nest
+@implementation GGNest
 
 @end

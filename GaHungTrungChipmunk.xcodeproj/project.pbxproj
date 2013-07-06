@@ -169,10 +169,10 @@
 		D828B54D178401F300BA4086 /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D828B54C178401F300BA4086 /* HelloWorldLayer.m */; };
 		D828B550178401F300BA4086 /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D828B54F178401F300BA4086 /* IntroLayer.m */; };
 		D828B552178401F300BA4086 /* grossini_dance_atlas.png in Resources */ = {isa = PBXBuildFile; fileRef = D828B551178401F300BA4086 /* grossini_dance_atlas.png */; };
-		D8B62BD31786785500362806 /* BaseSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B62BB91786785500362806 /* BaseSprite.m */; };
-		D8B62BD41786785500362806 /* Chicken.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B62BBB1786785500362806 /* Chicken.m */; };
-		D8B62BD51786785500362806 /* Egg.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B62BBD1786785500362806 /* Egg.m */; };
-		D8B62BD61786785500362806 /* Nest.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B62BBF1786785500362806 /* Nest.m */; };
+		D8B62BD31786785500362806 /* GGBaseSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B62BB91786785500362806 /* GGBaseSprite.m */; };
+		D8B62BD41786785500362806 /* GGChicken.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B62BBB1786785500362806 /* GGChicken.m */; };
+		D8B62BD51786785500362806 /* GGEgg.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B62BBD1786785500362806 /* GGEgg.m */; };
+		D8B62BD61786785500362806 /* GGNest.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B62BBF1786785500362806 /* GGNest.m */; };
 		D8B62BD71786785500362806 /* GGGameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B62BC21786785500362806 /* GGGameOverScene.m */; };
 		D8B62BD81786785500362806 /* GGGamePlayScene.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B62BC41786785500362806 /* GGGamePlayScene.m */; };
 		D8B62BD91786785500362806 /* GGIntroScene.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B62BC61786785500362806 /* GGIntroScene.m */; };
@@ -524,14 +524,14 @@
 		D828B551178401F300BA4086 /* grossini_dance_atlas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grossini_dance_atlas.png; path = Resources/grossini_dance_atlas.png; sourceTree = "<group>"; };
 		D8B62BB51786785500362806 /* GameConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameConfig.h; sourceTree = "<group>"; };
 		D8B62BB61786785500362806 /* Macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
-		D8B62BB81786785500362806 /* BaseSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseSprite.h; sourceTree = "<group>"; };
-		D8B62BB91786785500362806 /* BaseSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseSprite.m; sourceTree = "<group>"; };
-		D8B62BBA1786785500362806 /* Chicken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chicken.h; sourceTree = "<group>"; };
-		D8B62BBB1786785500362806 /* Chicken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chicken.m; sourceTree = "<group>"; };
-		D8B62BBC1786785500362806 /* Egg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Egg.h; sourceTree = "<group>"; };
-		D8B62BBD1786785500362806 /* Egg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Egg.m; sourceTree = "<group>"; };
-		D8B62BBE1786785500362806 /* Nest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nest.h; sourceTree = "<group>"; };
-		D8B62BBF1786785500362806 /* Nest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nest.m; sourceTree = "<group>"; };
+		D8B62BB81786785500362806 /* GGBaseSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGBaseSprite.h; sourceTree = "<group>"; };
+		D8B62BB91786785500362806 /* GGBaseSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGBaseSprite.m; sourceTree = "<group>"; };
+		D8B62BBA1786785500362806 /* GGChicken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGChicken.h; sourceTree = "<group>"; };
+		D8B62BBB1786785500362806 /* GGChicken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGChicken.m; sourceTree = "<group>"; };
+		D8B62BBC1786785500362806 /* GGEgg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGEgg.h; sourceTree = "<group>"; };
+		D8B62BBD1786785500362806 /* GGEgg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGEgg.m; sourceTree = "<group>"; };
+		D8B62BBE1786785500362806 /* GGNest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGNest.h; sourceTree = "<group>"; };
+		D8B62BBF1786785500362806 /* GGNest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGNest.m; sourceTree = "<group>"; };
 		D8B62BC11786785500362806 /* GGGameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGGameOverScene.h; sourceTree = "<group>"; };
 		D8B62BC21786785500362806 /* GGGameOverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGGameOverScene.m; sourceTree = "<group>"; };
 		D8B62BC31786785500362806 /* GGGamePlayScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGGamePlayScene.h; sourceTree = "<group>"; };
@@ -1125,14 +1125,14 @@
 		D8B62BB71786785500362806 /* Sprite */ = {
 			isa = PBXGroup;
 			children = (
-				D8B62BB81786785500362806 /* BaseSprite.h */,
-				D8B62BB91786785500362806 /* BaseSprite.m */,
-				D8B62BBA1786785500362806 /* Chicken.h */,
-				D8B62BBB1786785500362806 /* Chicken.m */,
-				D8B62BBC1786785500362806 /* Egg.h */,
-				D8B62BBD1786785500362806 /* Egg.m */,
-				D8B62BBE1786785500362806 /* Nest.h */,
-				D8B62BBF1786785500362806 /* Nest.m */,
+				D8B62BB81786785500362806 /* GGBaseSprite.h */,
+				D8B62BB91786785500362806 /* GGBaseSprite.m */,
+				D8B62BBA1786785500362806 /* GGChicken.h */,
+				D8B62BBB1786785500362806 /* GGChicken.m */,
+				D8B62BBC1786785500362806 /* GGEgg.h */,
+				D8B62BBD1786785500362806 /* GGEgg.m */,
+				D8B62BBE1786785500362806 /* GGNest.h */,
+				D8B62BBF1786785500362806 /* GGNest.m */,
 			);
 			path = Sprite;
 			sourceTree = "<group>";
@@ -1392,10 +1392,10 @@
 				D828B54A178401F300BA4086 /* AppDelegate.m in Sources */,
 				D828B54D178401F300BA4086 /* HelloWorldLayer.m in Sources */,
 				D828B550178401F300BA4086 /* IntroLayer.m in Sources */,
-				D8B62BD31786785500362806 /* BaseSprite.m in Sources */,
-				D8B62BD41786785500362806 /* Chicken.m in Sources */,
-				D8B62BD51786785500362806 /* Egg.m in Sources */,
-				D8B62BD61786785500362806 /* Nest.m in Sources */,
+				D8B62BD31786785500362806 /* GGBaseSprite.m in Sources */,
+				D8B62BD41786785500362806 /* GGChicken.m in Sources */,
+				D8B62BD51786785500362806 /* GGEgg.m in Sources */,
+				D8B62BD61786785500362806 /* GGNest.m in Sources */,
 				D8B62BD71786785500362806 /* GGGameOverScene.m in Sources */,
 				D8B62BD81786785500362806 /* GGGamePlayScene.m in Sources */,
 				D8B62BD91786785500362806 /* GGIntroScene.m in Sources */,

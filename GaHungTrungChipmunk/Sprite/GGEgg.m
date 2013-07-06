@@ -6,8 +6,8 @@
 //  Copyright (c) 2013 namnguyen. All rights reserved.
 //
 
-#import "Egg.h"
+#import "GGEgg.h"
 
-@implementation Egg
+@implementation GGEgg
 
 @end

@@ -6,9 +6,9 @@
 //  Copyright (c) 2013 namnguyen. All rights reserved.
 //
 
-#import "Chicken.h"
+#import "GGChicken.h"
 
-@implementation Chicken
+@implementation GGChicken
 
 -(id)makeNewWithPosition:(CGPoint)point{
 

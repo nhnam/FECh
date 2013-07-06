@@ -7,8 +7,8 @@
 //
 
 #import "CCSprite.h"
-#import "BaseSprite.h"
+#import "GGBaseSprite.h"
 
-@interface Chicken: BaseSprite
+@interface GGChicken: GGBaseSprite
     
 @end

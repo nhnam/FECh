@@ -7,8 +7,8 @@
 //
 
 #import "CCSprite.h"
-#import "BaseSprite.h"
+#import "GGBaseSprite.h"
 
-@interface Nest : BaseSprite
+@interface GGNest : GGBaseSprite
 
 @end

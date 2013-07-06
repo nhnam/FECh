@@ -14,5 +14,5 @@
 #import "Macro.h"
 #import "GameConfig.h"
 #import "cocos2d.h"
-
+#import "chipmunk.h"
 #endif

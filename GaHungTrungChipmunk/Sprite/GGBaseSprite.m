@@ -6,9 +6,9 @@
 //  Copyright (c) 2013 namnguyen. All rights reserved.
 //
 
-#import "BaseSprite.h"
+#import "GGBaseSprite.h"
 
-@implementation BaseSprite
+@implementation GGBaseSprite
 @synthesize mMass, mSpriteType;
 +(id)makeNewWithPosition:(CGPoint)point{
     
