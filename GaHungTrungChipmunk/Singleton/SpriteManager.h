@@ -7,8 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "GGBaseSprite.h"
-
+#import "BaseSprite.h"
 @interface SpriteManager : NSObject
 {
     int currentSpriteAlloc;
@@ -16,5 +15,5 @@
 @property (readonly) int currentSpriteAlloc;
 
 #pragma mark factory methods
-+(GGBaseSprite*)createNewSpriteWithId:(SpriteType)spriteId;
++(BaseSprite*)createNewSpriteWithId:(SpriteType)spriteId;
 @end

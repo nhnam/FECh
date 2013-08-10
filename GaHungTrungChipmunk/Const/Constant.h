@@ -25,6 +25,6 @@ typedef enum{
 }SpriteType;
 
 
-
+#define FPS 50
 
 #endif

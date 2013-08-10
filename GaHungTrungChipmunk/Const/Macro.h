@@ -6,6 +6,7 @@
 //  Copyright (c) 2013 namnguyen. All rights reserved.
 //
 
+#import "Constant.h"
 
 #ifndef NN_Macro_h
 #define NN_Macro_h

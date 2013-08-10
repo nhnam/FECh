@@ -7,9 +7,9 @@
 //
 
 #import "SpriteManager.h"
-#import "GGChicken.h"
-#import "GGEgg.h"
-#import "GGNest.h"
+#import "Chicken.h"
+#import "Egg.h"
+#import "Nest.h"
 
 @implementation SpriteManager
 @synthesize currentSpriteAlloc;
@@ -24,16 +24,16 @@
     }
     return self;
 }
-+(GGBaseSprite*)createNewSpriteWithId:(SpriteType)spriteId{
++(BaseSprite*)createNewSpriteWithId:(SpriteType)spriteId{
     switch (spriteId) {
         case SpriteChicken:
-            return [[[GGChicken alloc] init] autorelease];
+            return [[[Chicken alloc] init] autorelease];
             break;
         case SpriteEgg:
-            return [[[GGEgg alloc] init] autorelease];
+            return [[[Egg alloc] init] autorelease];
             break;
         case SpriteNest:
-            return [[[GGNest alloc] init] autorelease];
+            return [[[Nest alloc] init] autorelease];
             break;
         default:
 #warning Defaule Sprite does not supported

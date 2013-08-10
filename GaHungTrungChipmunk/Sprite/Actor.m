@@ -1,5 +1,5 @@
 #import "Actor.h"
-#import "HelloWorldLayer.h"
+#import "GamePlayScene.h"
 
 @implementation Actor
 @synthesize sprite, pointArray;

@@ -1,11 +1,10 @@
 #import "cocos2d.h"
-@class HelloWorldLayer;
+@class GamePlayScene;
 
-@interface Actor : CCNode 
-{
-    HelloWorldLayer *layer;
-    CCSprite *sprite;
-    NSMutableArray *pointArray;
+@interface Actor : CCNode {
+    GamePlayScene   *layer;
+    CCSprite        *sprite;
+    NSMutableArray  *pointArray;
     CGMutablePathRef path;
 }
 @property (nonatomic, retain) CCSprite *sprite;

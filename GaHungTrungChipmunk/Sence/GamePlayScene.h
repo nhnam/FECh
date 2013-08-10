@@ -17,6 +17,8 @@
 	CCPhysicsDebugNode *_debugLayer; // weak ref
 	cpSpace *_space; // strong ref
 	cpShape *_walls[4];
+    CCArray *_arrEggs;
+    CCLayerColor *bgColorLayer;
 }
 
 +(CCScene*)scene;
